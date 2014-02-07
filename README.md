@@ -1,4 +1,4 @@
-Dixie-Deans-XBMC-Repo
+WissamHDTV-XBMC-Repo
 =====================
 
-A repository for DixieDean's XBMC addons
+A repository for WissamHDTV addons
