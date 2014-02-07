@@ -1,13 +1,9 @@
 # XBMC Media Center language file
-# Addon Name: TV Guide
-# Addon id: script.tvguidedixie
-# Addon Provider: twinther [tommy@winther.nu]
+# Addon Name: WissamLiveTV
+# Addon id: script.wissamlivetv
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Addons\n"
-"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: XBMC Translation Team\n"
 "Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
 "MIME-Version: 1.0\n"

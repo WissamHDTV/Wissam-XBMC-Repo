@@ -29,7 +29,7 @@ def CheckIdle(maxIdle):
 
 
 def play(url, windowed):
-    ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+    ADDON = xbmcaddon.Addon(id = 'script.wissamlivetv')
     maxIdle = int(ADDON.getSetting('idle')) * 60 * 60
     if not checkForAlternateStreaming(url):
         xbmc.Player().play(item = url, windowed = windowed)

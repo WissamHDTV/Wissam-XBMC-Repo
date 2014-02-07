@@ -26,7 +26,7 @@ import ConfigParser
 import os
 import xbmcaddon
 
-ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON = xbmcaddon.Addon(id = 'script.wissamlivetv')
 datapath = xbmc.translatePath(ADDON.getAddonInfo('profile'))
 
 class StreamsService(object):

@@ -233,12 +233,12 @@ class Database(object):
                     xbmc.log('[script.tvguidetest] Database is locked, bailing out...', xbmc.LOGDEBUG)
                     break
                 else:  # ignore 'database is locked'
-                    xbmc.log('[script.tvguidedixie] Database is locked, retrying...', xbmc.LOGDEBUG)
+                    xbmc.log('[script.wissamlivetv] Database is locked, retrying...', xbmc.LOGDEBUG)
 
             except sqlite3.DatabaseError:
                 self.conn = None
                 if self.alreadyTriedUnlinking:
-                    xbmc.log('[script.tvguidedixie] Database is broken and unlink() failed', xbmc.LOGDEBUG)
+                    xbmc.log('[script.wissamlivetv] Database is broken and unlink() failed', xbmc.LOGDEBUG)
                     break
                 else:
                     try:
@@ -341,7 +341,7 @@ class Database(object):
         dateStr = date.strftime('%Y-%m-%d')
         c = self.conn.cursor()
         try:
-            xbmc.log('[script.tvguidedixie] Updating caches...', xbmc.LOGDEBUG)
+            xbmc.log('[script.wissamlivetv] Updating caches...', xbmc.LOGDEBUG)
             if progress_callback:
                 progress_callback(0)
 

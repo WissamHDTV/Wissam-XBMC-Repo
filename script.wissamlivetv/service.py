@@ -43,15 +43,15 @@ class Service(object):
         self.database.close(None)
 
 try:
-    ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+    ADDON = xbmcaddon.Addon(id = 'script.wissamlivetv')
     if ADDON.getSetting('cache.data.on.xbmc.startup') == 'true':
         Service()
 except source.SourceNotConfiguredException:
     pass  # ignore
 except Exception, ex:
-    xbmc.log('[script.tvguidedixie] Uncaugt exception in service.py: %s' % str(ex) , xbmc.LOGDEBUG)
+    xbmc.log('[script.wissamlivetv] Uncaugt exception in service.py: %s' % str(ex) , xbmc.LOGDEBUG)
 
-ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON = xbmcaddon.Addon(id = 'script.wissamlivetv')
 if ADDON.getSetting('autoStart') == "true":
     try:
         #workaround Python bug in strptime which causes it to intermittently throws an AttributeError
@@ -59,4 +59,4 @@ if ADDON.getSetting('autoStart') == "true":
         datetime.datetime.fromtimestamp(time.mktime(time.strptime('2013-01-01 19:30:00'.encode('utf-8', 'replace'), "%Y-%m-%d %H:%M:%S")))
     except:
         pass
-    xbmc.executebuiltin('RunScript(%s)' % 'script.tvguidedixie')
+    xbmc.executebuiltin('RunScript(%s)' % 'script.wissamlivetv')

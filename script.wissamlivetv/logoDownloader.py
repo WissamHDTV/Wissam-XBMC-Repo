@@ -1,5 +1,5 @@
 import urllib,dxmnew,xbmc,xbmcgui,xbmcaddon
-ADDON     = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON     = xbmcaddon.Addon(id = 'script.wissamlivetv')
 dialog = xbmcgui.DialogProgress()
 dialog.create('Please Wait.', 'Default Logo Pack Downloading...')
 dialog.update(0)

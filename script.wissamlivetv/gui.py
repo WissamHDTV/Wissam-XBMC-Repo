@@ -38,7 +38,7 @@ import shutil
 # addonid      = addon.getAddonInfo('id')
 # addonversion = addon.getAddonInfo('version')
 
-ADDON        = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON        = xbmcaddon.Addon(id = 'script.wissamlivetv')
 MASHMODE     = (ADDON.getSetting('mashmode') == 'true')
 SKIN         = ADDON.getSetting('dixie.skin')
 SKINSVERSION = '1'
@@ -299,7 +299,7 @@ class TVGuide(xbmcgui.WindowXML):
     def onInit(self):
         if self.initialized:
             # onInit(..) is invoked again by XBMC after a video addon exits after being invoked by XBMC.RunPlugin(..)
-            xbmc.log("[script.tvguidedixie] TVGuide.onInit(..) invoked, but we're already initialized!")
+            xbmc.log("[script.wissamlivetv] TVGuide.onInit(..) invoked, but we're already initialized!")
             return
         self.initialized = True
         self._hideControl(self.C_MAIN_MOUSE_CONTROLS, self.C_MAIN_OSD)
