@@ -53,15 +53,15 @@
     </extension>
 </addon>
 
-<addon id="repository.Wissam-XBMC-Repo" name="Wissam-XBMC-Repo" version="1.0.1" provider-name="Wissam">
+<addon id="repository.Wissam-XBMC-Repo" name="Wissam-XBMC-Repo" version="1.0.1" provider-name="Wissam Mahmood">
 	<extension point="xbmc.addon.repository" name="Wissam-XBMC-Repo-1.0.1">
 		<info compressed="false">https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/addons.xml</info>
 		<checksum>https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Install MY Addons</summary>
-		<description>Download and install addons from WissamTV</description>
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from WissamLiveTV</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -79,7 +79,7 @@
 	</extension>
 </addon>
 
-<addon id="script.tvguidedixie" name="WissamTV" version="1.5.5" provider-name="Wissam">
+<addon id="script.tvguidedixie" name="WissamLiveTV" version="1.5.5" provider-name="Wissam Mahmood">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" version="2.0.10"/>
