@@ -32,7 +32,7 @@ datapath = xbmc.translatePath(ADDON.getAddonInfo('profile'))
 class StreamsService(object):
     def __init__(self):
         path = os.path.join(datapath, 'addons.ini')
-        url = 'https://raw2.github.com/WisamHDTV/Wissam-XBMC-Repo/master/tvgdatafiles/addons.ini'
+        url = 'https://raw.github.com/WissamHDTV/Wissam-XBMC-Repo/master/tvgdatafiles/addons.ini'
         urllib.urlretrieve(url, path)
         self.addonsParser = ConfigParser.ConfigParser(dict_type=OrderedDict)
         self.addonsParser.optionxform = lambda option: option
