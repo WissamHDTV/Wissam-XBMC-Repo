@@ -34,7 +34,7 @@ except:
 import buggalo
 import gui
 
-buggalo.GMAIL_RECIPIENT = 'write2dixie@gmail.com'
+buggalo.GMAIL_RECIPIENT = 'testesttestest372842@gmail.com'
 
 
 try:

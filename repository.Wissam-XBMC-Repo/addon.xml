@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Wissam-XBMC-Repo" name="Wissam-XBMC-Repo" version="1.0.1" provider-name="Wissam Mahmood">
+<addon id="repository.Wissam-XBMC-Repo" name="Wissam-XBMC-Repo" version="1.0.1" provider-name="Wissam">
 	<extension point="xbmc.addon.repository" name="Wissam-XBMC-Repo-1.0.1">
 		<info compressed="false">https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/addons.xml</info>
 		<checksum>https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/addons.xml.md5</checksum>

@@ -53,7 +53,7 @@
     </extension>
 </addon>
 
-<addon id="repository.Wissam-XBMC-Repo" name="Wissam-XBMC-Repo" version="1.0.1" provider-name="Wissam Mahmood">
+<addon id="repository.Wissam-XBMC-Repo" name="Wissam-XBMC-Repo" version="1.0.1" provider-name="Wissam">
 	<extension point="xbmc.addon.repository" name="Wissam-XBMC-Repo-1.0.1">
 		<info compressed="false">https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/addons.xml</info>
 		<checksum>https://github.com/WissamHDTV/Wissam-XBMC-Repo/raw/master/addons.xml.md5</checksum>
@@ -61,7 +61,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install my Addons</summary>
-		<description>Download and install addons from WissamLiveTV</description>
+		<description>Download and install addons from WissamHDTV</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -79,13 +79,13 @@
 	</extension>
 </addon>
 
-<addon id="script.tvguidedixie" name="WissamLiveTV" version="1.5.5" provider-name="Wissam Mahmood">
+<addon id="script.tvguidedixie" name="WissamLiveTV" version="1.5.5" provider-name="Wissam">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" version="2.0.10"/>
         <import addon="script.module.elementtree" version="1.2.7"/>
         <import addon="script.module.buggalo" version="1.1.2"/>
-    	<import addon="plugin.video.ustvnow-dixie" version="1.0"/>
+
     </requires>
     <extension point="xbmc.python.script" library="addon.py"><provides>video</provides></extension>
     <extension point="xbmc.python.script" library="addon.py"/>
